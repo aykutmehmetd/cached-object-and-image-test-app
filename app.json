@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "cached-object-and-image-test-app",
+    "name": "Cache Test App",
     "slug": "cached-object-and-image-test-app",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -22,7 +22,8 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.alagar.cacheapp"
     },
     "web": {
       "bundler": "metro",
@@ -34,6 +35,15 @@
     ],
     "experiments": {
       "typedRoutes": true
-    }
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "954d4ea8-3645-4c05-82c2-6b4f03373639"
+      }
+    },
+    "owner": "4ykut"
   }
 }
